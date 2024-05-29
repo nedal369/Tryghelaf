@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>غلاف المهن</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Baloo Bhaijaan 2', cursive;
+            direction: rtl;
+            text-align: center;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background-image: url('/path/to/your/background-image.jpg');
+            background-size: cover;
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .header .logo {
+            width: 100px;
+            margin: 0 auto 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .header p {
+            font-size: 1.2em;
+        }
+        .timer {
+            font-size: 2em;
+            margin: 20px 0;
+        }
+        .features, .numbers, .about, .pricing {
+            margin: 40px 0;
+        }
+        .features h2, .numbers h2, .about h2, .pricing h2 {
+            font-size: 2em;
+            color: #333;
+        }
+        .features .feature, .numbers .number, .pricing .plan {
+            display: inline-block;
+            width: 30%;
+            margin: 0 1.5%;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .pricing .plan {
+            width: 45%;
+        }
+        .plan .price {
+            font-size: 1.5em;
+            color: #e67e22;
+        }
+        .plan button {
+            background-color: #e67e22;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="/path/to/your/logo.png" alt="Logo" class="logo">
+            <h1>فرصتك الذهبية</h1>
+            <p>للاستعداد لسوق العمل والتطوير المهني</p>
+            <div class="timer">
+                00:00:00:00
+            </div>
+        </div>
+
+        <div class="features">
+            <h2>مزايا الانضمام الى المعسكر</h2>
+            <div class="feature">استشارات وارشاد وتوجيه مهني</div>
+            <div class="feature">مراجعة وتقييم السيرة الذاتية</div>
+            <div class="feature">كتابة الأهداف المهنية</div>
+            <div class="feature">مراجعة وتقييم حساب لينكدان</div>
+            <div class="feature">ورش عمل تفاعلية</div>
+            <div class="feature">تجارب مهنية إثرائية</div>
+        </div>
+
+        <div class="numbers">
+            <h2>غلاف المهن في أرقام</h2>
+            <div class="number">+200,000 عدد المشاهدات</div>
+            <div class="number">+200 عدد المستشارين</div>
+            <div class="number">+600 عدد الساعات</div>
+            <div class="number">+50 عدد الدورات التدريبية</div>
+        </div>
+
+        <div class="about">
+            <h2>عن غلاف المهن</h2>
+            <p>بناء مواطن منافس عالميًا</p>
+            <p>معسكر غلاف المهن هو برنامج تدريبي مكثف يهدف إلى تزويد المشاركين بالمهارات والمعرفة اللازمة للنجاح في مجال مهني محدد.</p>
+        </div>
+
+        <div class="pricing">
+            <h2>سجل الآن في معسكر غلاف المهن</h2>
+            <div class="plan">
+                <h3>باقة البلس</h3>
+                <p class="price">249 رس</p>
+                <p>3 ورش عمل مخصصة</p>
+                <p>عضوية في مجتمع النمو المهني</p>
+                <p>دعوة خاصة للقاءات التجارب المهنية الإثرائية</p>
+                <button>اشترك الآن</button>
+            </div>
+            <div class="plan">
+                <h3>باقة البرو</h3>
+                <p class="price">399 رس</p>
+                <p>جلسين إضافية للاستشارة المهنية</p>
+                <p>ورشة عمل خاصة</p>
+                <p>دعوة خاصة للقاءات التجارب المهنية الإثرائية</p>
+                <button>اشترك الآن</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>تذكر أن النمو المهني هو رحلة مستمرة، فلا تتوقف عن التطوير والتحسين، انظر إلى المستقبل بتفاؤل وثقة</p>
+        <p>© 2024 غلاف المهن</p>
+    </div>
+</body>
+</html>
